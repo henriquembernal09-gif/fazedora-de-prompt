@@ -10,12 +10,12 @@ lista ao médico, a menos que ele peça; mostre, se pedir, a nota e o que foi co
 | 2 | **Cobre as oito partes** | Personalidade, enfoque, restrições, fluxo, estilo, insumos, templates e observações presentes. Parte não aplicável explica por quê. |
 | 3 | **Estilo observável** | O estilo descreve comportamentos (como abre, tamanho da frase, palavras) e tem trecho real do médico. Nenhum "tom acolhedor e profissional" solto. |
 | 4 | **Voz do médico** | O prompt está escrito na linguagem dele. Ele leria e diria "isso sou eu". |
-| 5 | **Travas fixas presentes** | Não inventar referência, não usar dado de paciente, não decidir conduta, dizer quando não sabe, não prometer. |
+| 5 | **Travas fixas presentes** | Não inventar referência nem fato que muda ([CONFERIR]), dizer quando não sabe, não prometer, rascunho para revisar. Se o assunto é saúde: também não usar dado de paciente nem decidir conduta. |
 | 6 | **Vícios de IA** | Bloco "EVITAR" adaptado ao caso, sem itens que o médico usa de verdade. |
 | 7 | **Sem contradição nem excesso** | Nenhuma regra briga com outra. Nada repetido. Cabe em uma ou duas páginas. |
 | 8 | **Insumos e lacunas** | Diz o que a IA recebe e o que faz quando falta. |
 | 9 | **Saída definida** | Formato, tamanho e campos claros. |
-| 10 | **Ângulos cobertos e confirmados** | Os 6 ângulos de `angulos.md` foram perguntados, pelo menos uma resposta mudou uma regra do prompt, e a pessoa confirmou o resumo antes da entrega. |
+| 10 | **Ângulos cobertos e confirmados** | Os 7 ângulos de `angulos.md` foram perguntados, pelo menos uma resposta mudou uma regra do prompt, e a pessoa confirmou o resumo antes da entrega. |
 | 11 | **Testado** | Rodou em caso fictício, o médico viu o resultado e os ajustes dele entraram no prompt. |
 
 ## Sinais de que ainda não está 9,5

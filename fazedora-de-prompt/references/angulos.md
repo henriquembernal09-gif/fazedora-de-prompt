@@ -5,7 +5,7 @@ o que ela **não pensou**, e é aqui que o prompt deixa de ser bom e passa a fun
 primeira. Cada ângulo vira **uma** pergunta, com a sua sugestão de resposta, como as
 outras. Nunca despeje vários de uma vez.
 
-## Os 6 ângulos obrigatórios (toda entrevista faz os seis, adaptados ao caso)
+## Os 7 ângulos obrigatórios (toda entrevista faz os sete, adaptados ao caso)
 
 | # | Ângulo | Pergunta-modelo | Por que importa |
 |---|---|---|---|
@@ -15,6 +15,7 @@ outras. Nunca despeje vários de uma vez.
 | 4 | **Resultado ruim, mas correto** | "Como seria um resultado tecnicamente certo que você mesmo jogaria fora?" | Pega o genérico, o longo demais, o formal demais. |
 | 5 | **Caso estranho** | "Qual o caso mais raro ou esquisito que isso pode enfrentar? O que você quer que aconteça nele?" | Define o comportamento fora do comum. |
 | 6 | **Critério de "bom o bastante"** | "Quando você olha o resultado, o que te faz dizer 'tá ótimo, mando assim'?" | Vira o critério de qualidade do prompt. |
+| 7 | **Recursos escondidos** | "O que você tem que a IA não enxerga? Milhas, cupom, cartão, contato, conta antiga, material seu. (Meu palpite: ...)" | O que ele esqueceu de contar porque é um ativo, não um problema. |
 
 ## Ângulos extras (use os que o caso pedir)
 
@@ -36,7 +37,7 @@ saber para quem. Siga esta ordem de dependência:
 3. **Fatos e fontes** (o que a IA recebe, de onde vêm os dados).
 4. **Fluxo** (passos, ramos, o que fazer quando faltar informação).
 5. **Estilo e formato** (só agora, já sabendo objetivo e público).
-6. **Ângulos** 1 a 6, em qualquer ponto depois do 2.
+6. **Ângulos** 1 a 7, em qualquer ponto depois do 2.
 
 Duas regras:
 - **Resposta que abre ramo nova:** se uma resposta revelar uma decisão que ele não tinha
@@ -55,8 +56,7 @@ Os ângulos terminam em **entendimento compartilhado**, não em prompt. Antes de
 escreva um resumo em 5 a 8 linhas, em linguagem dele:
 
 > Entendi assim: [objetivo]. Para [público]. Do seu jeito: [3 traços do estilo]. A IA
-> nunca: [2 proibições]. Se acontecer [caso estranho], [o que fazer]. Está certo? Falta ou
-> sobra algo?
+> nunca: [2 proibições]. Se acontecer [caso estranho], [o que fazer]. Está certo?
 
 Só gere o prompt depois de um "sim" ou de uma correção que você incorporou. Se ele está
 cansado, o resumo é de uma linha e a confirmação vale por "pode fazer".

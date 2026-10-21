@@ -1,5 +1,10 @@
 # Banco de perguntas
 
+**Ordem de uso** (segue `angulos.md`): A (objetivo) e B (público), depois D (limites e o
+que a IA nunca faz), depois E e F (fluxo e formato), **por último C (estilo)**. Os
+blocos estão agrupados por assunto, não por ordem. A pergunta 11 (texto real) é a exceção:
+pode vir logo depois de objetivo, público e limites, como pergunta separada.
+
 Cardápio, não roteiro. Escolha só as que a lacuna do relato pede, **uma por mensagem**,
 com sugestão de resposta quando der. Reescreva com as palavras da pessoa e com exemplo
 da especialidade dela. As perguntas abaixo estão no tom certo; adapte o assunto.
@@ -43,7 +48,7 @@ da especialidade dela. As perguntas abaixo estão no tom certo; adapte o assunto
 20. Em que fontes você confia para este assunto? A IA pode citar ou só usar o que você
     mandar?
 21. O que a IA nunca deve fazer aqui? (assunto, promessa, termo, conduta)
-22. Já aconteceu de a IA escrever algo que você não assinaria? O quê?
+22. Qual foi o texto de IA que você não assinaria? Me conta o que tinha de errado nele.
 23. Quando o pedido sair do assunto ou for sensível (urgência, risco, queixa), o que a
     IA deve fazer? Avisar você? Encerrar?
 
@@ -67,8 +72,8 @@ da especialidade dela. As perguntas abaixo estão no tom certo; adapte o assunto
 Use quando o pedido não é sobre paciente. Combine com A, D, E e os ângulos.
 
 34. Quem vai usar o resultado? Só você, ou família, sócio, equipe?
-35. Quais são as suas regras duras? Orçamento máximo, datas fixas, horário que não aceita,
-    o que não negocia. (Viagem: bagagem, escala, bairro, criança, mobilidade.)
+35. Qual é a sua regra mais dura aqui, a que você não negocia? (Orçamento, data, horário,
+    bagagem, criança, mobilidade.) Depois pergunte "e a segunda?", uma por vez.
 36. E as preferências leves, que você abriria mão se valesse a pena?
 37. Como você decide hoje entre duas boas opções? Preço, tempo, conforto, risco?
 38. De onde vêm os dados: site, planilha, e-mail, extrato? A IA pode buscar sozinha?

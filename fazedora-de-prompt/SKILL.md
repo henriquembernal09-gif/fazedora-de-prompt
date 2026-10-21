@@ -104,19 +104,19 @@ Regras da entrevista:
   "ainda é isso?". Se ele corrigir, ajuste o mapa.
 - **Piso mínimo, mesmo com pressa:** antes de entregar, as perguntas 1, 3, 4, 11, 21, 22
   e 32 do banco precisam ter sido feitas ou já respondidas no relato. Se ele cansar antes,
-  junte o que falta em **uma** pergunta curta ("só duas coisas para fechar: ...") e entregue.
+  junte o que falta em **uma** pergunta curta ("só uma coisa para fechar: ...") e entregue.
 - **Pare quando entendeu tudo.** Número de perguntas não é meta. Se com 12 perguntas
   você já tem as oito partes, vá para a entrega. Se faltam coisas, continue.
 - **Pare também se ele estiver cansado** ("tá bom", "só faz"): faça o melhor com o que
   tem, marque as lacunas em "Observações" e diga o que ficou em aberto.
 - **Peça pelo menos um texto real dele** (uma mensagem que já mandou, uma orientação
-  que já escreveu, um post). É o que mais deixa o resultado com a cara dele. Peça por
-  volta da pergunta 6 a 10, e peça de dois a três se ele tiver. Sem texto real, o
+  que já escreveu, um post). É o que mais deixa o resultado com a cara dele. Peça
+  logo depois de objetivo, público e restrições duras (em geral entre a pergunta 6 e a 10), e peça de dois a três se ele tiver. Sem texto real, o
   estilo vira palpite, e você precisa dizer isso na entrega.
   Lembre: sem nome nem dado de paciente.
-- **Cubra os 6 ângulos** de `references/angulos.md` (pré-mortem, decisão que sobra para
+- **Cubra os 7 ângulos** de `references/angulos.md` (pré-mortem, decisão que sobra para
   a IA, restrição escondida, resultado "correto mas ruim", caso estranho, critério de
-  "bom o bastante"). São as perguntas que ele não esperava, e as respostas valem mais
+  "bom o bastante", recursos escondidos). São as perguntas que ele não esperava, e as respostas valem mais
   do que as óbvias. Cada ângulo é **uma** pergunta, com a sua sugestão, na vida dele
   ("imagina que a IA te entregou isso e você ficou chateado: o que errou?"), nunca com o
   nome técnico.
@@ -128,7 +128,7 @@ Regras da entrevista:
 
 **Portão de confirmação.** Antes de gerar o prompt, escreva em 5 a 8 linhas, na linguagem
 dele, o que entendeu (objetivo, público, jeito de escrever, o que a IA nunca faz, o que
-fazer no caso estranho) e pergunte "Está certo? Falta ou sobra algo?". Só gere depois de
+fazer no caso estranho) e pergunte só "Está certo?" (se ele só confirmar, ótimo; o que faltar, ele traz). Só gere depois de
 um "sim" ou de uma correção que você incorporou. Se ele está cansado, o resumo é de uma
 linha e a confirmação vale por "pode fazer".
 
@@ -149,7 +149,9 @@ Não encerre sem testar. Diga:
 
 > Vou rodar esse prompt num caso fictício para a gente ver se ficou com a sua cara.
 
-Crie um caso **inventado** (nunca baseado em paciente real) e rode o prompt nele.
+Crie um caso **inventado** (nunca baseado em paciente real) e rode o prompt nele. Se a
+tarefa envolve preço, data ou dado que muda, use `[valor]` ou diga que o número do teste é
+inventado.
 **Antes de mostrar, confira a saída contra o vocabulário dele** (os pares "digo / não
 digo" do estilo): se saiu "utilize", "aguarde" ou "permaneço à disposição" e ele diz
 "use", "espere", "qualquer coisa me chama", refaça. Mostre o resultado e faça **uma**
