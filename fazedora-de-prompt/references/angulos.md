@@ -3,9 +3,16 @@
 O relato e as perguntas básicas cobrem o que a pessoa já sabe que quer. Os ângulos cobrem
 o que ela **não pensou**, e é aqui que o prompt deixa de ser bom e passa a funcionar de
 primeira. Cada ângulo vira **uma** pergunta, com a sua sugestão de resposta, como as
-outras. Nunca despeje vários de uma vez.
+outras. Nunca despeje vários de uma vez. Para encurtar, **junte o ângulo com a pergunta
+que ia fazer de qualquer jeito**, em vez de acrescentar.
 
-## Os 7 ângulos obrigatórios (toda entrevista faz os sete, adaptados ao caso)
+## Os 7 ângulos: 3 centrais sempre, 4 só quando o caso pedir
+
+**Centrais, em toda entrevista (modo rápido incluso):** 1 pré-mortem, 2 decisão que sobra
+para a IA, 3 restrição escondida.
+**Sob demanda:** 4 resultado "correto mas ruim" (quando o estilo é crítico), 5 caso estranho
+(saúde, dinheiro, prazo que não volta), 6 "bom o bastante" (uso recorrente), 7 recursos
+escondidos (viagem, compras, finanças).
 
 | # | Ângulo | Pergunta-modelo | Por que importa |
 |---|---|---|---|

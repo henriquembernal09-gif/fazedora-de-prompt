@@ -11,12 +11,12 @@ finanças, estudo, casa, trabalho.
 
 1. **Você fala.** Liga o microfone (ou dita) e conta o que quer que a IA faça. Pode ser
    bagunçado.
-2. **Ela pergunta.** Uma pergunta por mensagem, em linguagem comum, sem repetir o que
-   você já contou. São de 10 a 30 perguntas, conforme o tamanho do que você pediu. Ela
-   para quando já entendeu tudo. Algumas perguntas vão por ângulos em que você não tinha
-   pensado ("imagina que você odiou o resultado: o que deu errado?"), e é isso que deixa
-   o prompt certo de primeira. Antes de gerar, ela resume o que entendeu e espera o seu
-   "sim".
+2. **Ela pergunta, rápido.** Primeiro ela chuta o que entendeu e você só corrige o que
+   estiver errado. Depois, uma pergunta por vez, em linguagem comum, sem repetir o que você
+   já contou. Em geral são de 6 a 12 perguntas, e no máximo 20 em pedidos grandes. Entre
+   elas há perguntas por ângulos em que você não tinha pensado ("imagina que você odiou o
+   resultado: o que deu errado?"), que deixam o prompt certo de primeira. Antes de gerar,
+   ela resume o que entendeu e espera o seu "sim".
 3. **Você recebe o prompt pronto**, em bloco, para copiar. Vem com oito partes:
    personalidade, enfoque, restrições, fluxo, estilo, insumos, templates e observações.
 4. **Ela testa** o prompt num caso fictício e ajusta até soar como você.

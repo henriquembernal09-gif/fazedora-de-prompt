@@ -81,48 +81,56 @@ novo: agradeça, diga em uma linha o que entendeu e vá para o passo 2.
 Do relato, monte em silêncio o que você já sabe e o que falta, usando as oito partes
 do prompt (`references/arquitetura-do-prompt.md`): personalidade, enfoque, restrições,
 fluxo, estilo, insumos, templates, observações. Cada lacuna vira uma pergunta. Decida
-quantas perguntas o caso pede (ver tabela abaixo).
+quantas perguntas o caso pede (ver tabela do passo 3) e comece pelo menor número.
 
 **Ordene as perguntas pela dependência**, como numa árvore de decisões: objetivo e
 público primeiro, restrições duras depois, fatos e fluxo em seguida, estilo e formato por
 último (`references/angulos.md`). Não pergunte o tom antes de saber para quem é.
 
-### Passo 3. Entrevista
+### Passo 3. Entrevista (curta por padrão)
 
-Use o banco de perguntas em `references/banco-de-perguntas.md`, mas **escolha só as que
-a lacuna pede**. O banco é um cardápio, não um roteiro.
+Médico tem pouco tempo. O padrão é o **modo rápido**: o menor número de perguntas que
+ainda deixa o prompt certo de primeira. Aprofunde só quando a tarefa pedir.
 
-| Tamanho do pedido | Exemplo | Perguntas |
+**Chute e corrija.** Depois do relato, não saia perguntando tudo. Escreva em poucas linhas
+o que você já deduziu (objetivo, para quem, jeito, o que a IA nunca faz) e pergunte só
+"O que está errado nisso?". Responder "tá certo" ou corrigir um ponto custa dez segundos e
+vale por várias perguntas. Depois, pergunte só o que ficou sem resposta.
+
+| Pedido | Exemplo | Perguntas (já contando os ângulos) |
 |---|---|---|
-| Simples | uma tarefa só, bem definida (resumir artigo) | 10 a 15 |
-| Médio | uma tarefa com público e estilo (orientação pós-consulta) | 15 a 20 |
-| Complexo | vários cenários, vários públicos, fluxo (assistente de secretaria) | 20 a 30 |
+| Simples | uma tarefa só, bem definida (resumir artigo, buscar passagem) | 6 a 8 |
+| Médio | uma tarefa com público e estilo (orientação pós-consulta) | 8 a 12 |
+| Complexo | vários cenários, vários públicos, usada pela equipe | 12 a 20 (nunca mais que 20) |
+
+**Quando aprofundar (suba de faixa):** o prompt vai ser usado todo dia ou por outras
+pessoas; o texto sai sem ninguém revisar; envolve saúde de paciente, dinheiro ou prazo
+que não volta; há vários públicos ou vários casos diferentes; ou ele mesmo diz "quero
+capricho". Nos outros casos, fique na faixa curta. Se ele pedir "quero o completo", use o
+banco inteiro; se disser "rápido", fique no piso.
 
 Regras da entrevista:
 
-- **A cada 5 perguntas, faça um resumo de uma linha** do que já entendeu e pergunte
-  "ainda é isso?". Se ele corrigir, ajuste o mapa.
-- **Piso mínimo, mesmo com pressa:** antes de entregar, as perguntas 1, 3, 4, 11, 21, 22
-  e 32 do banco precisam ter sido feitas ou já respondidas no relato. Se ele cansar antes,
-  junte o que falta em **uma** pergunta curta ("só uma coisa para fechar: ...") e entregue.
-- **Pare quando entendeu tudo.** Número de perguntas não é meta. Se com 12 perguntas
-  você já tem as oito partes, vá para a entrega. Se faltam coisas, continue.
-- **Pare também se ele estiver cansado** ("tá bom", "só faz"): faça o melhor com o que
-  tem, marque as lacunas em "Observações" e diga o que ficou em aberto.
-- **Peça pelo menos um texto real dele** (uma mensagem que já mandou, uma orientação
-  que já escreveu, um post). É o que mais deixa o resultado com a cara dele. Peça
-  logo depois de objetivo, público e restrições duras (em geral entre a pergunta 6 e a 10), e peça de dois a três se ele tiver. Sem texto real, o
-  estilo vira palpite, e você precisa dizer isso na entrega.
-  Lembre: sem nome nem dado de paciente.
-- **Cubra os 7 ângulos** de `references/angulos.md` (pré-mortem, decisão que sobra para
-  a IA, restrição escondida, resultado "correto mas ruim", caso estranho, critério de
-  "bom o bastante", recursos escondidos). São as perguntas que ele não esperava, e as respostas valem mais
-  do que as óbvias. Cada ângulo é **uma** pergunta, com a sua sugestão, na vida dele
-  ("imagina que a IA te entregou isso e você ficou chateado: o que errou?"), nunca com o
-  nome técnico.
-- **Resposta que abre uma ramificação nova, você desce nela antes de seguir.** Se ele
-  diz "depende do paciente" ou "depende do orçamento", pergunte "depende de quê?" antes
-  de voltar à lista.
+- **Piso, mesmo com pressa:** objetivo e para quem; o que a IA nunca faz; **um texto real
+  dele**; e os **3 ângulos centrais** (pré-mortem, decisão que sobra para a IA, restrição
+  escondida; ver `references/angulos.md`). Sem isso o prompt sai genérico. O que faltar do
+  piso, junte numa pergunta curta ("só uma coisa para fechar: ...").
+- **Os outros 4 ângulos** (resultado "correto mas ruim", caso estranho, "bom o bastante",
+  recursos escondidos) entram **só quando o caso pedir** (caso estranho em saúde ou
+  dinheiro; recursos escondidos em viagem, compras, finanças).
+- **Banco de perguntas é cardápio.** Escolha só as que a lacuna pede
+  (`references/banco-de-perguntas.md`). Se o relato já respondeu, pule.
+- **Resumo de uma linha só a cada 5 perguntas**, e só em entrevista que passe de 8.
+- **Pare quando entendeu tudo.** Número de perguntas não é meta, é teto. Se com 7 perguntas
+  você tem as oito partes, vá para a entrega.
+- **Pare se ele estiver cansado** ("tá bom", "só faz"): cumpra o piso em uma pergunta,
+  entregue e declare as lacunas em "Observações".
+- **Peça pelo menos um texto real dele** (mensagem, orientação, post), logo depois de
+  objetivo, público e limites. É o que mais deixa o resultado com a cara dele. Peça só um;
+  mais de um só se ele oferecer. Sem texto real, o estilo vira palpite, e você diz isso na
+  entrega. Lembre: sem nome nem dado de paciente.
+- **Resposta que abre uma ramificação nova: desça nela** antes de seguir ("depende de
+  quê?"). É o que mais pega erro, então não pule, mesmo no modo rápido.
 
 ### Passo 4. Confirmação e entrega
 

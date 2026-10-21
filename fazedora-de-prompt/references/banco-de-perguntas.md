@@ -90,7 +90,9 @@ Use quando o pedido não é sobre paciente. Combine com A, D, E e os ângulos.
 
 ## Como escolher
 
-- **Sempre**: 1, 3, 4, 11, 21, 22, 32.
+- **Piso (modo rápido)**: 3 (para quem), 21 (o que a IA nunca faz), 11 (texto real) e os 3
+  ângulos centrais de `angulos.md`. As outras só quando a lacuna pedir. Nunca percorra o
+  banco inteiro: ele é cardápio.
 - **Tarefa de paciente**: acrescente 7 a 10, 12, 13, 23.
 - **Conteúdo de rede social/aula**: acrescente 5, 14, 16, 20, 25.
 - **Resumo/leitura de material técnico**: acrescente 20, 24, 25, 27.
