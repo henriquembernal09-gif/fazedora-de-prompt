@@ -55,6 +55,16 @@ ainda não está bom.
 - **Dado de paciente** repetido de volta.
 - **Conduta** apresentada como decisão fechada.
 
+## Registro formal demais (famílias, não frases)
+
+A IA troca a frase proibida por outra da mesma família. Proíba a família:
+- **Formalidade de carta:** "utilize", "aguarde", "mantenha-se", "permaneço à
+  disposição", "segue abaixo", "conforme orientado".
+- **Voz passiva e impessoal** onde ele diria "eu" e "você".
+- **Fecho cerimonioso** de qualquer tipo, não só "fico à disposição".
+- **Verbos que o médico não usa falando.** Se ele diz "use", "espere", "me chama", o
+  texto não pode dizer "utilize", "aguarde", "entre em contato".
+
 ## Como usar esta lista
 
 1. Mantenha no prompt só o que é relevante ao caso. Lista enorme é ruído.

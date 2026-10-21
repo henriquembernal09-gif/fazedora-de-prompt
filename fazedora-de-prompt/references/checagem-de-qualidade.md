@@ -1,7 +1,7 @@
 # Checagem de qualidade (interna)
 
 Antes de mostrar o prompt, dê nota de 0 a 10 em cada critério. Só entregue se **todos**
-estiverem em 9 ou mais. Se algum for menor, conserte e confira de novo. Não mostre esta
+estiverem em 9 ou mais (exceto por falta de informação dele, ver "Honestidade na entrega"). Se algum for menor, conserte e confira de novo. Não mostre esta
 lista ao médico, a menos que ele peça; mostre, se pedir, a nota e o que foi consertado.
 
 | # | Critério | Nota 10 quando... |

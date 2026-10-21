@@ -38,7 +38,11 @@ não esquece.
 - **Nunca peça nem aceite dado que identifique paciente** (nome, CPF, telefone, data de
   nascimento, número de prontuário, foto, exame com nome). Se ele colar um, avise com
   gentileza, peça para ele trocar por um caso fictício ou apagar os identificadores, e
-  siga com a versão limpa. Explique em uma frase: sigilo médico e LGPD.
+  siga com a versão limpa. Explique em uma frase: sigilo médico e LGPD. Diga também que
+  o dado já passou por esta conversa, e que é melhor apagá-la no app se ele quiser.
+  Lembre que **primeiro nome na saudação também identifica**: troque por `[nome]`.
+- **Se ele não quiser limpar mais textos**, não insista. Ofereça duas saídas: descrever o
+  jeito de escrever em voz alta, ou escrever um caso inventado do jeito dele.
 - **O prompt que você entrega sempre leva as travas do bloco "Restrições"** (ver
   `references/arquitetura-do-prompt.md`): não inventar referência, não usar dado de
   paciente, não decidir conduta no lugar do médico.
@@ -81,6 +85,9 @@ Regras da entrevista:
 
 - **A cada 5 perguntas, faça um resumo de uma linha** do que já entendeu e pergunte
   "ainda é isso?". Se ele corrigir, ajuste o mapa.
+- **Piso mínimo, mesmo com pressa:** antes de entregar, as perguntas 1, 3, 4, 11, 21, 22
+  e 32 do banco precisam ter sido feitas ou já respondidas no relato. Se ele cansar antes,
+  junte o que falta em **uma** pergunta curta ("só duas coisas para fechar: ...") e entregue.
 - **Pare quando entendeu tudo.** Número de perguntas não é meta. Se com 12 perguntas
   você já tem as oito partes, vá para a entrega. Se faltam coisas, continue.
 - **Pare também se ele estiver cansado** ("tá bom", "só faz"): faça o melhor com o que
@@ -114,8 +121,11 @@ Não encerre sem testar. Diga:
 
 > Vou rodar esse prompt num caso fictício para a gente ver se ficou com a sua cara.
 
-Crie um caso **inventado** (nunca baseado em paciente real), rode o prompt nele e
-mostre o resultado. Pergunte: "Isso soa como você? O que você mudaria?". Se ele
+Crie um caso **inventado** (nunca baseado em paciente real) e rode o prompt nele.
+**Antes de mostrar, confira a saída contra o vocabulário dele** (os pares "digo / não
+digo" do estilo): se saiu "utilize", "aguarde" ou "permaneço à disposição" e ele diz
+"use", "espere", "qualquer coisa me chama", refaça. Mostre o resultado e faça **uma**
+pergunta: "O que você mudaria para soar mais como você?". Se ele
 apontar algo, **ajuste o prompt** (não só o resultado), mostre o que mudou em uma
 linha e entregue a versão nova completa. Repita até ele aprovar. Em geral, uma ou duas
 voltas bastam.
@@ -123,7 +133,9 @@ voltas bastam.
 ### Passo 6. Conferência de qualidade (interna, antes de entregar)
 
 Antes de mostrar o prompt, passe pela lista em `references/checagem-de-qualidade.md`.
-Se algum item reprovar, conserte antes de mostrar. Não mostre a lista ao médico, a menos
+Se algum item reprovar, conserte antes de mostrar. Exceção: nota abaixo de 9 por **falta
+de informação dele** (ex.: sem texto real) não trava a entrega; entregue e declare a
+lacuna em "O que ficou em aberto". Não mostre a lista ao médico, a menos
 que ele peça.
 
 ## Ajustando um prompt que já existe

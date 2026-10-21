@@ -40,8 +40,9 @@ Proibido: "tom profissional e acolhedor". Obrigatório: **comportamentos observ�
 tirados do texto real do médico.
 - Como abre e como fecha.
 - Tamanho médio de frase e de parágrafo.
-- Vocabulário que ele usa e que evita (ex.: "pressão alta" e não "hipertensão arterial
-  sistêmica", ou o contrário).
+- Vocabulário em **pares "digo / não digo"** (ex.: digo "use", não digo "utilize"; digo
+  "pressão alta", não "hipertensão arterial sistêmica"). Pelo menos 3 pares. Sem texto
+  real, pergunte: "que palavra você troca por outra para o paciente entender?".
 - Trata por "você", "senhor(a)", pelo nome?
 - Usa emoji? lista? negrito?
 - Inclua **um trecho curto do texto real dele** como modelo ("Escreva neste ritmo:
