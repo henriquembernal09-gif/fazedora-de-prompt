@@ -1,6 +1,6 @@
 # Checagem de qualidade (interna)
 
-Antes de mostrar o prompt, dê nota de 0 a 10 em cada critério. Só entregue se **todos**
+Antes de mostrar o prompt, dê nota de 0 a 10 em cada um dos 11 critérios. Só entregue se **todos**
 estiverem em 9 ou mais (exceto por falta de informação dele, ver "Honestidade na entrega"). Se algum for menor, conserte e confira de novo. Não mostre esta
 lista ao médico, a menos que ele peça; mostre, se pedir, a nota e o que foi consertado.
 
@@ -15,7 +15,8 @@ lista ao médico, a menos que ele peça; mostre, se pedir, a nota e o que foi co
 | 7 | **Sem contradição nem excesso** | Nenhuma regra briga com outra. Nada repetido. Cabe em uma ou duas páginas. |
 | 8 | **Insumos e lacunas** | Diz o que a IA recebe e o que faz quando falta. |
 | 9 | **Saída definida** | Formato, tamanho e campos claros. |
-| 10 | **Testado** | Rodou em caso fictício, o médico viu o resultado e os ajustes dele entraram no prompt. |
+| 10 | **Ângulos cobertos e confirmados** | Os 6 ângulos de `angulos.md` foram perguntados, pelo menos uma resposta mudou uma regra do prompt, e a pessoa confirmou o resumo antes da entrega. |
+| 11 | **Testado** | Rodou em caso fictício, o médico viu o resultado e os ajustes dele entraram no prompt. |
 
 ## Sinais de que ainda não está 9,5
 

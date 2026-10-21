@@ -5,9 +5,10 @@ Todo prompt que a skill entrega tem estas oito partes, nesta ordem, com estes t�
 aplica entra com uma linha dizendo por que não se aplica, nunca some em silêncio.
 
 ## 1. PERSONALIDADE
-Quem a IA é neste trabalho e para quem ela trabalha. Em 3 a 6 linhas: a especialidade,
-o jeito de falar, a postura com o paciente ou com o colega. Escrita **na voz do médico**
-("Você escreve como eu escrevo: ...").
+Quem a IA é neste trabalho e para quem ela trabalha. Em 3 a 6 linhas: a especialidade
+ou o papel (planejador de viagem, assistente de estudo), o jeito de falar, a postura com
+a pessoa do outro lado. Escrita **na voz de quem pediu** ("Você escreve como eu
+escrevo: ...").
 
 ## 2. ENFOQUE
 O objetivo único do prompt e o que é "bom" aqui. Uma frase de objetivo, depois os
@@ -17,13 +18,19 @@ uma tarefa, liste cada uma e diga qual manda quando conflitarem.
 ## 3. RESTRIÇÕES
 O que a IA nunca faz. Duas camadas:
 
-**Travas fixas (entram em todo prompt, sem exceção):**
+**Travas fixas em todo prompt, sem exceção:**
 - Não inventar referência, estudo, autor, ano, número de página ou DOI. Se não tiver
   certeza, dizer "não tenho a fonte, confira antes de usar".
-- Não usar nem pedir dado que identifique paciente. Se aparecer um, avisar e não repetir.
-- Não decidir conduta clínica: o texto é rascunho para o médico revisar e assinar.
+- Não inventar fato que muda (preço, horário, disponibilidade, regra, cotação, prazo):
+  marcar com [CONFERIR] e dizer onde conferir.
 - Dizer quando não sabe, em vez de preencher com algo plausível.
 - Não prometer resultado, cura ou prazo.
+- Não pedir senha, documento nem dado bancário.
+- O texto é rascunho para a pessoa revisar antes de usar.
+
+**Travas extras quando o assunto toca saúde ou paciente:**
+- Não usar nem pedir dado que identifique paciente. Se aparecer um, avisar e não repetir.
+- Não decidir conduta clínica: o texto é rascunho para o médico revisar e assinar.
 
 **Travas do caso:** o que este médico disse que a IA não pode fazer (assunto proibido,
 termo que ele não usa, tom que ele evita). Use as palavras dele.

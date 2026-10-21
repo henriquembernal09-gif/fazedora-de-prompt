@@ -62,6 +62,21 @@ da especialidade dela. As perguntas abaixo estão no tom certo; adapte o assunto
 31. Isso vai ser usado só por você, ou pela equipe? Alguém mais precisa entender o
     prompt?
 
+## H. Fora do consultório (viagem, compras, finanças, estudo, casa, trabalho)
+
+Use quando o pedido não é sobre paciente. Combine com A, D, E e os ângulos.
+
+34. Quem vai usar o resultado? Só você, ou família, sócio, equipe?
+35. Quais são as suas regras duras? Orçamento máximo, datas fixas, horário que não aceita,
+    o que não negocia. (Viagem: bagagem, escala, bairro, criança, mobilidade.)
+36. E as preferências leves, que você abriria mão se valesse a pena?
+37. Como você decide hoje entre duas boas opções? Preço, tempo, conforto, risco?
+38. De onde vêm os dados: site, planilha, e-mail, extrato? A IA pode buscar sozinha?
+39. Que fato muda toda hora (preço, vaga, cotação) e precisa ser conferido antes de agir?
+40. Qual a última vez que você fez isso à mão? Onde perdeu mais tempo?
+41. Vai ser uma vez só ou repetir toda semana, todo mês, toda viagem?
+42. Depois que a IA entregar, qual é a próxima ação sua (reservar, pagar, mandar, comprar)?
+
 ## G. Fechamento
 
 32. Falta alguma coisa que eu não perguntei e que, se a IA errasse, te incomodaria?
@@ -75,4 +90,6 @@ da especialidade dela. As perguntas abaixo estão no tom certo; adapte o assunto
 - **Conteúdo de rede social/aula**: acrescente 5, 14, 16, 20, 25.
 - **Resumo/leitura de material técnico**: acrescente 20, 24, 25, 27.
 - **Assistente de equipe/secretaria**: acrescente 18, 19, 23, 28 a 31.
+- **Assunto fora do consultório** (viagem, compras, finanças, estudo, casa): 1, 3, 4,
+  34 a 42, e os ângulos de `angulos.md`.
 - Se a pessoa responder duas perguntas em uma, **risque a próxima** do banco.

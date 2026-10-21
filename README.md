@@ -4,14 +4,19 @@
 um prompt pronto, com a sua cara e não com cara de IA.**
 
 Uma skill gratuita para médicos, criada pela [Monet Health](https://www.instagram.com/monet.health).
+Feita para o consultório, mas funciona para qualquer assunto da sua vida: viagem, compras,
+finanças, estudo, casa, trabalho.
 
 ## Como funciona
 
 1. **Você fala.** Liga o microfone (ou dita) e conta o que quer que a IA faça. Pode ser
    bagunçado.
-2. **Ela pergunta.** Uma pergunta por mensagem, em linguagem de consultório, sem
-   repetir o que você já contou. São de 10 a 30 perguntas, conforme o tamanho do que
-   você pediu. Ela para quando já entendeu tudo.
+2. **Ela pergunta.** Uma pergunta por mensagem, em linguagem comum, sem repetir o que
+   você já contou. São de 10 a 30 perguntas, conforme o tamanho do que você pediu. Ela
+   para quando já entendeu tudo. Algumas perguntas vão por ângulos em que você não tinha
+   pensado ("imagina que você odiou o resultado: o que deu errado?"), e é isso que deixa
+   o prompt certo de primeira. Antes de gerar, ela resume o que entendeu e espera o seu
+   "sim".
 3. **Você recebe o prompt pronto**, em bloco, para copiar. Vem com oito partes:
    personalidade, enfoque, restrições, fluxo, estilo, insumos, templates e observações.
 4. **Ela testa** o prompt num caso fictício e ajusta até soar como você.
@@ -40,6 +45,8 @@ Para usar, abra uma conversa nova e escreva: **"Quero fazer um prompt"**.
 - Resumo de artigo com os pontos que importam para você
 - Roteiro de aula, post ou legenda sem soar como robô
 - Estrutura de relatório ou parecer
+- Roteiro de viagem, busca de passagem e hospedagem, comparação de compras
+- Organização de finanças pessoais, plano de estudo, rotina de casa
 
 ## Cuidados que a skill já toma por você
 
@@ -48,6 +55,8 @@ Para usar, abra uma conversa nova e escreva: **"Quero fazer um prompt"**.
 - **O prompt entregue proíbe inventar referência bibliográfica.** IA inventa citação
   com cara de verdade; o prompt já vem com a trava.
 - **Não decide conduta.** O prompt gera rascunho para você revisar e assinar.
+- **Não inventa preço, horário nem regra.** Em assuntos como viagem, o prompt marca o que
+  você precisa conferir no site oficial.
 
 Mesmo assim: **você é responsável pelo que a IA escrever em seu nome.** Leia antes de enviar.
 Não coloque dados identificáveis de pacientes em nenhuma ferramenta de IA sem
@@ -60,10 +69,12 @@ fazedora-de-prompt/
 ├── SKILL.md                         ← o método (a entrevista, passo a passo)
 └── references/
     ├── arquitetura-do-prompt.md     ← as oito partes do prompt entregue
-    ├── banco-de-perguntas.md        ← cardápio de perguntas de consultório
+    ├── banco-de-perguntas.md        ← cardápio de perguntas (consultório e vida fora dele)
+    ├── angulos.md                   ← perguntas por ângulos que você não pensou + confirmação
     ├── vicios-de-ia.md              ← o que a IA faz que denuncia o texto
     ├── checagem-de-qualidade.md     ← a régua interna antes de entregar
-    └── exemplo-completo.md          ← um prompt entregue, caso fictício
+    ├── exemplo-completo.md          ← prompt entregue no consultório, caso fictício
+    └── exemplo-viagem.md            ← prompt entregue fora do consultório, caso fictício
 ```
 
 Tudo em texto simples. Pode abrir e ler. Se quiser mudar algo, é só editar o `SKILL.md`.
