@@ -90,9 +90,9 @@ Use quando o pedido não é sobre paciente. Combine com A, D, E e os ângulos.
 
 ## Como escolher
 
-- **Piso**: as 5 perguntas iniciais do `SKILL.md` (já cobrem objetivo, pior erro, decisão que
-  sobra, o que ele não pensou e texto real). Daí em diante, só o que a lacuna pedir. O banco
-  é cardápio: nunca percorra inteiro, nem no modo capricho.
+- **Piso**: as 5 perguntas de contexto do `SKILL.md` (passo 3), escolhidas pelo que falta no
+  relato. Daí em diante, só o que a lacuna pedir. O banco é cardápio: nunca percorra inteiro,
+  nem no modo capricho, e nunca refaça uma pergunta já respondida.
 - **Tarefa de paciente**: acrescente 7 a 10, 12, 13, 23.
 - **Conteúdo de rede social/aula**: acrescente 5, 14, 16, 20, 25.
 - **Resumo/leitura de material técnico**: acrescente 20, 24, 25, 27.

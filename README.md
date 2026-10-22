@@ -11,12 +11,13 @@ finanças, estudo, casa, trabalho.
 
 1. **Você fala.** Liga o microfone (ou dita) e conta o que quer que a IA faça. Pode ser
    bagunçado.
-2. **Ela pergunta, rápido.** Começa pelas 5 perguntas que mais pesam: a tarefa, o pior erro
-   que a IA pode cometer, o que você ainda não decidiu, o que você nem tinha pensado e um
-   texto seu de verdade. Cada uma vem com uma linha de "por que a IA precisa saber isso",
-   então você aprende a dar ordem a qualquer IA. Depois ela só pergunta o que faltou. Em
-   geral são de 5 a 9 perguntas, no máximo 12 em pedidos grandes. Se você jogar várias
-   tarefas de uma vez, ela separa e faz um prompt de cada vez.
+2. **Ela pergunta, rápido.** Começa pelas 5 perguntas que mais ajudam a IA a entender a sua
+   tarefa. Elas não são as mesmas para todo mundo: ela escolhe pelo que você contou e muda a
+   próxima conforme a sua resposta. Cada pergunta traz um palpite para você só confirmar e
+   um convite para contar mais ("quanto mais você me contar, melhor fica o prompt"). Ela
+   nunca repete pergunta nem pergunta o óbvio. Você aprende, no caminho, o que precisa dizer
+   a qualquer IA. Em geral são de 5 a 9 perguntas, no máximo 12 em pedidos grandes. Se você
+   jogar várias tarefas de uma vez, ela separa e faz um prompt de cada vez.
 3. **Você recebe o prompt pronto**, em bloco, para copiar. Vem com oito partes:
    personalidade, enfoque, restrições, fluxo, estilo, insumos, templates e observações.
 4. **Ela testa** o prompt num caso fictício e ajusta até soar como você.

@@ -8,9 +8,8 @@ que ia fazer de qualquer jeito** (ainda uma pergunta só), em vez de acrescentar
 
 ## Como os ângulos entram
 
-As **5 perguntas iniciais** do `SKILL.md` já carregam os três ângulos centrais: **pré-mortem**
-(pergunta 2), **decisão que sobra para a IA** (3) e **restrição escondida / recurso
-escondido** (4). Não repita. A tabela abaixo lista os 7; os de número **1 a 3 e o 7** já estão nas 5 iniciais (o 7 na pergunta 4, fora da saúde). Os de número **4 a 6** são extras: entram só quando
+As **5 perguntas de contexto** do `SKILL.md` já carregam os ângulos centrais: **pré-mortem**
+(o pior erro), **decisão que sobra para a IA** e **restrição ou recurso escondido**. Não repita. A tabela abaixo lista os 7; os de número **1 a 3 e o 7** já estão nas 5 iniciais (o 7 na pergunta 4, fora da saúde). Os de número **4 a 6** são extras: entram só quando
 o caso pedir (resultado "correto mas ruim" quando o estilo é crítico; caso estranho em
 saúde, dinheiro ou prazo que não volta; "bom o bastante" em uso recorrente).
 

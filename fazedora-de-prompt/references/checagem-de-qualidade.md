@@ -15,7 +15,7 @@ lista ao médico, a menos que ele peça; mostre, se pedir, a nota e o que foi co
 | 7 | **Sem contradição nem excesso** | Nenhuma regra briga com outra. Nada repetido. Cabe em uma ou duas páginas. |
 | 8 | **Insumos e lacunas** | Diz o que a IA recebe e o que faz quando falta. |
 | 9 | **Saída definida** | Formato, tamanho e campos claros. |
-| 10 | **Ângulos cobertos e confirmados** | As 5 perguntas iniciais foram feitas (e os ângulos extras que o caso pedia), pelo menos uma resposta mudou uma regra do prompt, e a pessoa confirmou o resumo antes da entrega. |
+| 10 | **Ângulos cobertos e confirmados** | As perguntas de contexto de maior peso foram feitas, nenhuma repetida nem óbvia (e os ângulos extras que o caso pedia), pelo menos uma resposta mudou uma regra do prompt, e a pessoa confirmou o resumo antes da entrega. |
 | 11 | **Testado** (conferido **depois** do passo de teste, não antes da entrega) | Rodou em caso fictício, o médico viu o resultado e os ajustes dele entraram no prompt. |
 
 ## Sinais de que ainda não está 9,5
