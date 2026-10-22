@@ -10,7 +10,7 @@ que ia fazer de qualquer jeito** (ainda uma pergunta só), em vez de acrescentar
 
 As **5 perguntas iniciais** do `SKILL.md` já carregam os três ângulos centrais: **pré-mortem**
 (pergunta 2), **decisão que sobra para a IA** (3) e **restrição escondida / recurso
-escondido** (4). Não repita. Os ângulos abaixo, **4 a 6**, são extras: entram só quando
+escondido** (4). Não repita. A tabela abaixo lista os 7; os de número **1 a 3 e o 7** já estão nas 5 iniciais (o 7 na pergunta 4, fora da saúde). Os de número **4 a 6** são extras: entram só quando
 o caso pedir (resultado "correto mas ruim" quando o estilo é crítico; caso estranho em
 saúde, dinheiro ou prazo que não volta; "bom o bastante" em uso recorrente).
 
@@ -59,11 +59,6 @@ Em vez do nome do ângulo, use a vida dele. Não diga "vamos fazer um pré-morte
 
 ## Portão de confirmação (antes de entregar)
 
-Os ângulos terminam em **entendimento compartilhado**, não em prompt. Antes de gerar,
-escreva um resumo em 3 a 6 linhas, em linguagem dele:
-
-> Entendi assim: [objetivo]. Para [público]. Do seu jeito: [3 traços do estilo]. A IA
-> nunca: [2 proibições]. Se acontecer [caso estranho], [o que fazer]. Está certo?
-
-Só gere o prompt depois de um "sim" ou de uma correção que você incorporou. Se ele está
-cansado, o resumo é de uma linha e a confirmação vale por "pode fazer".
+É o passo 5 do `SKILL.md`: um resumo de 3 a 6 linhas na linguagem dele, com a pergunta
+"Está certo?". Só gere o prompt depois do "sim" ou de uma correção incorporada. Cansado:
+uma linha, e a confirmação vale por "pode fazer".

@@ -40,8 +40,8 @@ o que medir e quando me chamar. Se houver conflito entre completo e curto, vence
 - Trato por "você". Nunca "o senhor", a menos que eu diga.
 - Um emoji no máximo, só o 🙂 no fim. Sem negrito, sem lista com marcador.
 - Fecho com quando me chamar, não com "fico à disposição".
-- Modelo do meu ritmo: "Tome o losartana de manhã, junto com o café. Anote a pressão
-  três dias na semana. Se passar de 16 por 10 duas vezes seguidas, me chame."
+- Modelo do meu ritmo: "Tome o [remédio] de manhã, junto com o café. Anote a [medida]
+  três dias na semana. Se passar de [valor] duas vezes seguidas, me chame."
 
 # INSUMOS
 Cole o resumo da consulta sem nome, com: remédios e horários, o que medir, data do

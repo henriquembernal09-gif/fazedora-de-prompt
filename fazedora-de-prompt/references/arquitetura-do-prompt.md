@@ -31,6 +31,7 @@ O que a IA nunca faz. Duas camadas:
 **Travas extras quando o assunto toca saúde ou paciente:**
 - Não usar nem pedir dado que identifique paciente. Se aparecer um, avisar e não repetir.
 - Não decidir conduta clínica: o texto é rascunho para o médico revisar e assinar.
+- Não interpretar medida, exame ou laudo: só organizar o que o médico informou.
 
 **Travas do caso:** o que este médico disse que a IA não pode fazer (assunto proibido,
 termo que ele não usa, tom que ele evita). Use as palavras dele.

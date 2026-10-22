@@ -50,7 +50,7 @@ Para usar, abra uma conversa nova e escreva: **"Quero fazer um prompt"**.
 
 ## Cuidados que a skill já toma por você
 
-- **Não pede nem aceita dado de paciente.** Se você colar um nome por engano, ela avisa e
+- **Não pede nem aceita dado de paciente.** Se você colar nome, carteirinha, guia ou CID de um paciente por engano, ela avisa e
   segue sem ele.
 - **O prompt entregue proíbe inventar referência bibliográfica.** IA inventa citação
   com cara de verdade; o prompt já vem com a trava.
