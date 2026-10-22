@@ -60,4 +60,4 @@ Em vez do nome do ângulo, use a vida dele. Não diga "vamos fazer um pré-morte
 
 É o passo 5 do `SKILL.md`: um resumo de 3 a 6 linhas na linguagem dele, com a pergunta
 "Está certo?". Só gere o prompt depois do "sim" ou de uma correção incorporada. Cansado:
-uma linha, e a confirmação vale por "pode fazer".
+uma linha, e se ele já disse "só faz" a confirmação é só um aviso: gere em seguida.
