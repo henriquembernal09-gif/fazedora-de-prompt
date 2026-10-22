@@ -57,8 +57,20 @@ Se a resposta abrir uma ramificação ("depende do convênio"), desça nela com 
 
 Banco de perguntas por assunto (opcional): `references/banco-de-perguntas.md`.
 
-### 4. Nota e entrega
-Monte o prompt e **dê nota a ele antes de entregar**. A nota é objetiva: comece em 10 e **tire 0,5 por defeito** da lista abaixo. **9,5 ou mais = no máximo 1 defeito.**
+### 4. Revisão, nota e entrega
+**Antes de dar nota, faça a revisão adversarial.** Releia o prompt como um auditor hostil que quer reprová-lo e **ache pelo menos 5 defeitos** nestas 10 passadas. Auditores independentes deram 6,5 a 7,5 a prompts que o autor achava 9,6, sempre pelos mesmos erros:
+1. **Conflito interno.** Confira cada regra numérica ou de formato contra o exemplo do próprio prompt (limite de 12 palavras e um trecho dele com 14; exemplo com menos palavras que o mínimo; "só a tabela" e uma ordem de avisar). Onde duas regras colidem, escreva a exceção ou corte uma.
+2. **Repetição.** Cada instrução aparece uma vez. Fecho, formato ou aviso em duas partes: deixe uma.
+3. **Origem.** Toda regra vem do que ele disse, de um exemplo dele ou da linha fixa de RESTRIÇÕES. Corte regra inventada ("não prometa cura", "sem emoji") que ele não pediu.
+4. **Termo vago.** "Curto", "formal", "termo técnico", "óbvio", "claro": defina com número ou exemplo, ou corte.
+5. **Lacuna.** Dado que ele não informou (CRM, data, nome) vira `[preencher: ...]`. A IA nunca inventa número, nome nem prazo.
+6. **Palavras dele.** Pelo menos 2 expressões literais dele em RESTRIÇÕES ou ESTILO ("odeio carta longa"). Use o exemplo que ele deu, no template.
+7. **Fora do texto.** Tudo que não faz parte da saída final (avisos, contagem de palavras, "confirmar") fica marcado como "fora do texto" e dito uma vez, inclusive a ordem das linhas finais.
+8. **Pessoa.** "Eu" é sempre ele; a IA é "você". Nunca escreva a IA em primeira pessoa ("recebo", "pergunto").
+9. **Insumo aceito.** Para cada insumo que o prompt aceita (imagem de referência, tabela modelo), diga o que a IA faz com ele. E diga o que a IA entrega enquanto espera uma resposta.
+10. **Tamanho.** 250 a 400 palavras. Corte o que a IA já faria sozinha, e OBSERVAÇÕES sem enrolação ("Versão 1" não é observação).
+
+Corrija e **só então dê a nota**. A nota é objetiva: comece em 10 e **tire 0,5 por defeito que sobrou** (lista abaixo). **9,5 ou mais = no máximo 1 defeito.** Seja severo: se achou menos de 5 defeitos na revisão, procure de novo.
 
 Defeitos:
 1. Falta uma das 8 partes, ou ela está vazia sem uma linha explicando por quê.
@@ -66,12 +78,12 @@ Defeitos:
 3. Há linha que a IA faria sozinha ("seja educado", "seja claro").
 4. O estilo está em adjetivo ("tom acolhedor") em vez de comportamento (como abre e fecha, tamanho de frase, "digo / não digo").
 5. O pior erro dele não aparece em RESTRIÇÕES, nas palavras dele.
-6. Faltam, em RESTRIÇÕES, "não inventar fonte nem número", "rascunho para eu revisar" ou "avise se parecer dado sensível".
+6. Falta, em RESTRIÇÕES, a linha fixa ("rascunho para eu revisar", "não invente fonte, número nem nome", "avise se parecer dado sensível").
 7. Ele deu exemplo ou texto e o prompt não os usa; ou ele não deu nenhum (defeito por falta de insumo).
-8. Cita ferramenta específica, ou deixa lacuna esquecida (`[colchetes]` só para o que ele preenche a cada uso).
-9. Passa de 450 palavras sem necessidade, ou tem enrolação.
+8. Cita ferramenta específica, deixa lacuna esquecida, ou duas regras se contradizem.
+9. Passa de 400 palavras sem necessidade, tem regra inventada ou repete instrução.
 
-**Menos de 9,5: corrija os defeitos e refaça** (até duas vezes) antes de mostrar; se refez, diga em meia frase. Se ainda ficar abaixo, em geral por falta de insumo dele (defeito 7), entregue assim mesmo e seja sincero: diga a nota, o que faltou e quais 1 ou 2 perguntas, respondidas por ele, fariam a nota subir.
+**Menos de 9,5: corrija e refaça** (até duas vezes) antes de mostrar; se refez, diga em meia frase. Se ainda ficar abaixo, em geral por falta de insumo dele (defeito 7), entregue assim mesmo e seja sincero: diga a nota, o que faltou e quais 1 ou 2 perguntas, respondidas por ele, fariam a nota subir.
 
 **Formato da entrega:** diga "Já tenho o que preciso", mostre o prompt em **um bloco de código** (para copiar com um clique) e, embaixo, em poucas linhas:
 - **Nota: 9,X/10**, com o ponto forte e, se houver, o que subiria a nota. (É a sua autoavaliação; o teste de verdade é colar e usar.)
@@ -95,7 +107,7 @@ Exemplo: "Sugestão: separar em dois agentes, um que redige e outro que só revi
 
 - **Estrutura:** as 8 partes do PERFEITO, nesta ordem, com títulos em maiúsculas: PERSONALIDADE, ENFOQUE, RESTRIÇÕES, FLUXO, ESTILO, INSUMOS, TEMPLATES, OBSERVAÇÕES.
 - **Escrito na voz dele** ("Você escreve como eu escrevo ...").
-- **RESTRIÇÕES** sempre inclui: não inventar referência, número, preço nem fonte (dizer "não sei, confira"); o texto é **rascunho para ele revisar**; **"se eu colar algo que pareça dado sensível, avise e sugira como proceder"**; e o pior erro dele, nas palavras dele.
+- **RESTRIÇÕES** começa com uma linha fixa: **"Rascunho para eu revisar. Não invente fonte, número nem nome (diga 'não sei, confira'). Se eu colar algo que pareça dado sensível, avise e sugira como proceder."** Depois vêm o pior erro dele, nas palavras dele, e só as regras que ele pediu.
 - **ESTILO** em comportamentos, nunca adjetivo ("tom acolhedor" não vale). Inclua pares "digo / não digo" e um trecho real dele, se houver.
 - **Afirmativo antes de proibição.** Explique o porquê das regras importantes em meia frase. Um exemplo vale dez adjetivos.
 - **Evitar** (adapte; tire o que ele usa de verdade): "não é X, é Y", "jornada", "potencializar", "vale ressaltar", "holístico"; abertura que elogia a pergunta e fecho "fico à disposição"; texto que dá voltas ou resume o que acabou de dizer; entusiasmo que não é dele; formalidade de carta ("utilize", "aguarde"); referência inventada.
