@@ -9,7 +9,7 @@ que ia fazer de qualquer jeito** (ainda uma pergunta só), em vez de acrescentar
 ## Como os ângulos entram
 
 As **5 perguntas de contexto** do `SKILL.md` já carregam os ângulos centrais: **pré-mortem**
-(o pior erro), **decisão que sobra para a IA** e **restrição ou recurso escondido**. Não repita. A tabela abaixo lista os 7; os de número **1 a 3 e o 7** já estão nas 5 iniciais (o 7 na pergunta 4, fora da saúde). Os de número **4 a 6** são extras: entram só quando
+(o pior erro), **decisão que sobra para a IA** e **restrição ou recurso escondido**. Não repita. A tabela abaixo lista os 7; os de número **1 a 3 e o 7** já estão nas 5 perguntas de contexto (o 7 aparece quando o assunto não é saúde). Os de número **4 a 6** são extras: entram só quando
 o caso pedir (resultado "correto mas ruim" quando o estilo é crítico; caso estranho em
 saúde, dinheiro ou prazo que não volta; "bom o bastante" em uso recorrente).
 
@@ -43,7 +43,7 @@ saber para quem. Siga esta ordem de dependência:
 3. **Fatos e fontes** (o que a IA recebe, de onde vêm os dados).
 4. **Fluxo** (passos, ramos, o que fazer quando faltar informação).
 5. **Estilo e formato** (só agora, já sabendo objetivo e público).
-6. **Ângulos extras**, em qualquer ponto depois das 5 perguntas iniciais.
+6. **Ângulos extras**, em qualquer ponto depois das 5 perguntas de contexto.
 
 Duas regras:
 - **Resposta que abre ramo nova:** se uma resposta revelar uma decisão que ele não tinha
