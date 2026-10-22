@@ -60,13 +60,13 @@ Banco de perguntas por assunto (opcional): `references/banco-de-perguntas.md`.
 ### 4. Revisão, nota e entrega
 **Antes de dar nota, faça a revisão adversarial.** Releia o prompt como um auditor hostil que quer reprová-lo e **ache pelo menos 5 defeitos** nestas 10 passadas. Auditores independentes deram 6,5 a 7,5 a prompts que o autor achava 9,6, sempre pelos mesmos erros:
 1. **Conflito interno.** Confira cada regra numérica ou de formato contra o exemplo do próprio prompt (limite de 12 palavras e um trecho dele com 14; exemplo com menos palavras que o mínimo; "só a tabela" e uma ordem de avisar). **Uma medida por limite** ("1 página" ou "200 palavras", nunca os dois) e **uma frase por ideia** (a mesma ideia não aparece com duas redações). Onde duas regras colidem, escreva a exceção ou corte uma.
-2. **Repetição.** Cada instrução aparece uma vez. Fecho, formato ou aviso em duas partes: deixe uma.
-3. **Origem.** Toda regra vem do que ele disse, de um exemplo dele ou da linha fixa de RESTRIÇÕES. Corte regra inventada ("não prometa cura", "sem emoji") que ele não pediu.
+2. **Repetição.** Cada fato aparece **uma vez**, na parte onde ele mora (formato em TEMPLATES, o que nunca em RESTRIÇÕES, tom em ESTILO). Se "sem pessoas" ou "1:1" aparece em duas partes, deixe uma. Idioma da saída: diga uma vez.
+3. **Origem (a passada que mais reprova).** Para cada regra, número, limite, cor, palavra ou campo do prompt, aponte de onde veio: **(a)** ele disse, **(b)** está no exemplo dele, **(c)** é a linha fixa. Sem origem, **corte**: nada de limite que ele não deu ("até 8 palavras" quando ele disse "frase curta"), cor ou termo trocado por sinônimo seu ("bege-claro" quando ele disse "quase branco"), recurso extra que ele não pediu (linha "Palavras: N", "Escolhi:", legenda, "versão 2") ou conferência que ele recusou. Se faltar um valor, use as palavras dele ou `[preencher: o quê]`.
 4. **Termo vago.** "Curto", "formal", "termo técnico", "óbvio", "claro": defina com número ou exemplo, ou corte.
 5. **Lacuna.** Uma convenção só: dado que ele não informou vira `[preencher: o quê]`. A IA nunca inventa número, nome nem prazo. Não peça campo que ele não pediu (CRM, endereço).
 6. **Palavras dele.** Pelo menos 2 expressões literais dele em RESTRIÇÕES ou ESTILO ("odeio carta longa"). **Copie literalmente no TEMPLATES as frases do exemplo que ele deu**, principalmente as que carregam o tom (a frase firme, o fecho). Todo insumo que o prompt aceita (operadora, tema, tabela) aparece no template ou no fluxo.
 7. **Fora do texto.** Tudo que não faz parte da saída final (avisos, contagem de palavras, "confirmar") fica marcado como "fora do texto" e dito uma vez, inclusive a ordem das linhas finais.
-8. **Pessoa.** "Eu" é sempre ele; a IA é "você". Nunca escreva a IA em primeira pessoa ("recebo", "pergunto").
+8. **Pessoa.** Escreva as instruções à IA no imperativo ("Abra com...", "Use X, não Y"). "Eu" só aparece quando ele fala de si ("eu reviso"). Nunca a IA em primeira pessoa ("recebo", "pergunto") e nunca "Digo / Não digo" (use "Use X, não Y").
 9. **Insumo aceito.** Para cada insumo que o prompt aceita (imagem de referência, tabela modelo), diga o que a IA faz com ele. E diga o que a IA entrega enquanto espera uma resposta.
 10. **Tamanho.** 250 a 400 palavras. Corte o que a IA já faria sozinha, e OBSERVAÇÕES sem enrolação ("Versão 1" não é observação).
 
@@ -86,7 +86,7 @@ Defeitos:
 **Menos de 9,5: corrija e refaça** (até duas vezes) antes de mostrar; se refez, diga em meia frase. Se ainda ficar abaixo, em geral por falta de insumo dele (defeito 7), entregue assim mesmo e seja sincero: diga a nota, o que faltou e quais 1 ou 2 perguntas, respondidas por ele, fariam a nota subir.
 
 **Formato da entrega:** diga "Já tenho o que preciso", mostre o prompt em **um bloco de código** (para copiar com um clique) e, embaixo, em poucas linhas:
-- **Revisão:** "achei e corrigi N defeitos" com 2 ou 3 exemplos em meia linha cada. Se não achou, diga que procurou em 10 passadas e não achou. Essa linha é obrigatória: ela prova que a revisão aconteceu.
+- **Revisão:** "achei e corrigi N defeitos e cortei N regras sem origem" com 2 ou 3 exemplos em meia linha cada. Se não achou, diga que procurou em 10 passadas e não achou. Essa linha é obrigatória: ela prova que a revisão aconteceu.
 - **Nota: 9,X/10**, com o ponto forte e, se houver, o que subiria a nota. (É a sua autoavaliação; costuma sair 1 a 2 pontos acima da de um auditor externo. O teste de verdade é colar e usar.)
 - **Como usar:** onde colar e o que mandar junto a cada uso.
 - **O que assumi**, se assumiu algo que ele não confirmou.
