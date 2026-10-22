@@ -1,102 +1,44 @@
-# Banco de perguntas
+# Banco de perguntas (opcional)
 
-**Ordem de uso** (segue `angulos.md`): A (objetivo) e B (público), depois D (limites e o
-que a IA nunca faz), depois E e F (fluxo e formato), **por último C (estilo)**. Os
-blocos estão agrupados por assunto, não por ordem. A pergunta 11 (texto real) é a exceção:
-pode vir logo depois de objetivo, público e limites, como pergunta separada.
+Cardápio, não roteiro. Escolha só o que a lacuna do relato pede, uma por mensagem, sempre com palpite e convite para contar mais. Reescreva com as palavras dele; nunca use uma pergunta que serviria para qualquer pessoa.
 
-Cardápio, não roteiro. Escolha só as que a lacuna do relato pede, **uma por mensagem**,
-com sugestão de resposta quando der. Reescreva com as palavras da pessoa e com exemplo
-da especialidade dela. As perguntas abaixo estão no tom certo; adapte o assunto.
+## Insumos e exemplos (adapte ao que ele quer fazer)
+- **Texto, mensagem, e-mail:** "Cola uma que você já mandou e achou a sua cara."
+- **Tabela ou planilha:** "É uma tabela que você já montou alguma vez? Cola ou descreve as colunas e um exemplo de linha."
+- **Roteiro de vídeo, aula, post:** "Qual roteiro seu funcionou melhor? Cola o começo e me diz por que funcionou."
+- **Geração de imagem:** "Tem uma imagem que você já gerou e gostou? Em qual ferramenta? O que você quer que se repita (estilo, cor, enquadramento)?"
+- **Resumo de artigo, relatório, parecer:** "Qual formato você já usa? Tem um modelo de resumo seu?"
+- **Resultado final:** "Quando estiver pronto, como você vai usar? Copia e cola, revisa, manda para alguém?"
+- **Automação:** "O que você faz de igual toda semana? Onde perde mais tempo?"
 
-## A. Objetivo e uso (só o que o relato não respondeu)
+## O que ele não pensou (escolha 1 a 2)
+- **Pior erro:** "Imagina que a IA entregou e você ficou furioso. O que ela fez?"
+- **Decisão que sobra:** "O que você ainda não decidiu e a IA vai ter que chutar?"
+- **Regra invisível:** "Que regra você segue sem perceber e não me contou?" (tempo, dinheiro, gosto, política do lugar)
+- **Recurso escondido:** "O que você tem que a IA não enxerga?" (material seu, modelo, conta, contato, milhas)
+- **Parar e perguntar:** "Em que situação a IA deve parar e te perguntar, em vez de chutar?"
+- **Caso estranho:** "Qual o caso mais raro que isso pode enfrentar? O que deve acontecer nele?"
+- **Bom o bastante:** "O que te faz dizer 'tá ótimo, mando assim'?"
+- **Resultado correto mas ruim:** "Como seria um resultado certo que você mesmo jogaria fora?"
 
-1. Quando essa tarefa aparece na sua semana? Me conta a última vez que você fez isso.
-2. O que você faz hoje, sem IA, para resolver? Quanto tempo leva?
-3. Para quem é o resultado: paciente, família, colega, secretária, público do Instagram,
-   banca? (Se mais de um, quais?)
-4. Como você vai usar o resultado: copia e cola direto, ou revisa antes? Em qual lugar
-   (WhatsApp, prontuário, e-mail, slide, rede social)?
-5. Se a IA acertasse tudo, o que você faria com o tempo que sobrou?
-6. Qual a diferença entre um resultado "bom" e um "excelente" para você?
+## Estilo (quando há texto)
+- "Como você começa e como termina esse tipo de texto?"
+- "Que palavra você troca por outra para a pessoa entender?" (vira par "digo / não digo")
+- "Tem expressão ou bordão seu? E palavra que você jamais usaria?"
+- "Você usa emoji, lista, negrito, 'você' ou 'senhor(a)'?"
+- "Qual texto de IA já te irritou? O que tinha de errado?"
 
-## B. Público e situação
+## Público e situação
+- "Quem é a pessoa do outro lado? O que ela costuma entender errado?"
+- "Em que situação o texto precisa mudar (criança, idoso, caso grave, aluno iniciante)?"
 
-7. Quem é a pessoa do outro lado? Idade, escolaridade, estado emocional típico.
-8. O que ela costuma entender errado sobre isso?
-9. O que ela já sabe quando chega até você?
-10. Existe uma situação em que o texto precisa ser diferente (criança, idoso, caso
-    grave, paciente ansioso)? Como muda?
+## Fora do consultório (viagem, compras, finanças, estudo, casa, trabalho)
+- "Qual a sua regra mais dura, a que você não negocia?" (orçamento, data, horário, bagagem)
+- "Como você decide entre duas boas opções?" (preço, tempo, conforto, risco)
+- "Que dado muda toda hora e precisa ser conferido antes de agir?"
+- "Qual a sua próxima ação depois que a IA entregar?" (reservar, pagar, mandar)
 
-## C. Estilo (aqui entra o texto real)
-
-11. Você tem uma mensagem, orientação ou post seu que você acha que ficou *a sua cara*?
-    Cola aqui (sem nome de paciente). Um basta; mais de um só se você quiser.
-12. Quando você explica isso pro paciente, como começa? E como termina?
-13. Que palavra você troca por outra para o paciente entender? (ex.: o que você diz em
-    vez de "hipertensão"?)
-14. Tem expressão ou bordão que é seu? E tem palavra que você jamais usaria?
-15. Você usa emoji? Usa "você", "senhor(a)", o nome da pessoa?
-16. Seu texto costuma ser curto e seco, ou mais conversado? Quanto de acolhimento você
-    põe antes do conteúdo?
-17. Qual texto de IA já te irritou? O que tinha de errado nele?
-
-## D. Conteúdo e limites
-
-18. Que informações a IA vai receber de você a cada vez? Em que formato?
-19. Se faltar informação, a IA deve perguntar ou assumir? Quais perguntas ela deve fazer?
-20. Em que fontes você confia para este assunto? A IA pode citar ou só usar o que você
-    mandar?
-21. O que a IA nunca deve fazer aqui? (assunto, promessa, termo, conduta)
-22. Qual foi o texto de IA que você não assinaria? Me conta o que tinha de errado nele.
-23. Quando o pedido sair do assunto ou for sensível (urgência, risco, queixa), o que a
-    IA deve fazer? Avisar você? Encerrar?
-
-## E. Formato da saída
-
-24. Como o resultado precisa aparecer: parágrafo, lista, tabela, passos numerados?
-25. Qual o tamanho ideal? Qual o máximo?
-26. Existe um modelo fixo (campos, ordem) que você já usa? Me mostra.
-27. Precisa de uma versão curta e uma completa?
-
-## F. Fluxo e variações (para pedidos complexos)
-
-28. Quais são os casos diferentes que esse assistente vai enfrentar? Liste uns 3 a 5.
-29. Em qual desses casos o erro seria mais grave?
-30. Quem revisa o resultado antes de sair, e o que essa pessoa olha?
-31. Isso vai ser usado só por você, ou pela equipe? Alguém mais precisa entender o
-    prompt?
-
-## G. Fora do consultório (viagem, compras, finanças, estudo, casa, trabalho)
-
-Use quando o pedido não é sobre paciente. Combine com A, D, E e os ângulos.
-
-34. Quem vai usar o resultado? Só você, ou família, sócio, equipe?
-35. Qual é a sua regra mais dura aqui, a que você não negocia? (Orçamento, data, horário,
-    bagagem, criança, mobilidade.) Depois pergunte "e a segunda?", uma por vez.
-36. E as preferências leves, que você abriria mão se valesse a pena?
-37. Como você decide hoje entre duas boas opções? Preço, tempo, conforto, risco?
-38. De onde vêm os dados: site, planilha, e-mail, extrato? A IA pode buscar sozinha?
-39. Que fato muda toda hora (preço, vaga, cotação) e precisa ser conferido antes de agir?
-40. Qual a última vez que você fez isso à mão? Onde perdeu mais tempo?
-41. Vai ser uma vez só ou repetir toda semana, todo mês, toda viagem?
-42. Depois que a IA entregar, qual é a próxima ação sua (reservar, pagar, mandar, comprar)?
-
-## H. Fechamento
-
-32. Falta alguma coisa que eu não perguntei e que, se a IA errasse, te incomodaria?
-33. Se você pudesse dar só um conselho para um estagiário que fosse fazer isso por você,
-    qual seria?
-
-## Como escolher
-
-- **Piso**: as 5 perguntas de contexto do `SKILL.md` (passo 3), escolhidas pelo que falta no
-  relato. Daí em diante, só o que a lacuna pedir. O banco é cardápio: nunca percorra inteiro,
-  nem no modo capricho, e nunca refaça uma pergunta já respondida.
-- **Tarefa de paciente**: acrescente 7 a 10, 12, 13, 23.
-- **Conteúdo de rede social/aula**: acrescente 5, 14, 16, 20, 25.
-- **Resumo/leitura de material técnico**: acrescente 20, 24, 25, 27.
-- **Assistente de equipe/secretaria**: acrescente 18, 19, 23, 28 a 31.
-- **Assunto fora do consultório** (viagem, compras, finanças, estudo, casa): 1, 3, 4,
-  34 a 42, e os ângulos de `angulos.md`.
-- Se a pessoa responder duas perguntas em uma, **risque a próxima** do banco.
+## Regras de uso
+- Resposta que cobre duas perguntas: risque a seguinte.
+- Nunca percorra o banco inteiro.
+- Nunca refaça pergunta já respondida.

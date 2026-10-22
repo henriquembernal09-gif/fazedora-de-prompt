@@ -1,90 +1,50 @@
 # Fazedora de Prompt
 
-**Fale 2 minutos do seu jeito. A IA faz as perguntas que faltam, uma por vez, e entrega
-um prompt pronto, com a sua cara e não com cara de IA.**
+**Fale 2 minutos do seu jeito. A IA faz as perguntas certas, poucas, e entrega um prompt pronto para copiar e colar, com a sua cara e não com cara de IA.**
 
-Uma skill gratuita para médicos, criada pela [Monet Health](https://www.instagram.com/monet.health).
-Feita para o consultório, mas funciona para qualquer assunto da sua vida: viagem, compras,
-finanças, estudo, casa, trabalho.
+Material gratuito para médicos, da [Monet Health](https://www.instagram.com/monet.health). Serve para qualquer tarefa: mensagens e e-mails, roteiro de vídeo, aula, post, tabela, planilha, geração de imagem, resumo de artigo, viagem, finanças.
 
 ## Como funciona
 
-1. **Você fala.** Liga o microfone (ou dita) e conta o que quer que a IA faça. Pode ser
-   bagunçado.
-2. **Ela pergunta, rápido.** Começa pelas 5 perguntas que mais ajudam a IA a entender a sua
-   tarefa. Elas não são as mesmas para todo mundo: ela escolhe pelo que você contou e muda a
-   próxima conforme a sua resposta. Cada pergunta traz um palpite para você só confirmar e
-   um convite para contar mais ("quanto mais você me contar, melhor fica o prompt"). Ela
-   nunca repete pergunta nem pergunta o óbvio. Você aprende, no caminho, o que precisa dizer
-   a qualquer IA. Em geral são de 5 a 9 perguntas, no máximo 12 em pedidos grandes. Se você
-   jogar várias tarefas de uma vez, ela separa e faz um prompt de cada vez.
-3. **Você recebe o prompt pronto**, em bloco, para copiar. Vem com oito partes:
-   personalidade, enfoque, restrições, fluxo, estilo, insumos, templates e observações.
-4. **Ela testa** o prompt num caso fictício e ajusta até soar como você.
+1. **Você fala.** Liga o microfone (ou dita) e conta o que quer. Pode ser bagunçado.
+2. **Ela pergunta pouco e certo.** Uma pergunta por vez, sempre ligada ao que você disse, com um palpite para você só confirmar. Em geral de 4 a 7 perguntas, no máximo 10. No meio, ela pede um exemplo seu (um texto, uma tabela, uma imagem) porque com exemplo real o resultado acerta muito mais.
+3. **Você recebe o prompt pronto,** em um bloco para copiar, com as 8 partes do **PERFEITO**: **P**ersonalidade · **E**nfoque · **R**estrições · **F**luxo · **E**stilo · **I**nsumos · **T**emplates · **O**bservações.
+4. **Ela dá uma nota ao prompt antes de entregar.** Menos de 9,5, ela refaz. Se faltar informação sua, ela diz o que perguntar para melhorar.
+5. **Se a tarefa pedir, ela sugere dividir em agentes** (por exemplo, um que escreve e outro que só revisa) e pergunta se você quer.
 
-Para o texto ficar com a sua cara, ela pede pelo menos uma mensagem ou orientação real
-sua (sem nome de paciente) e copia o estilo dali.
+## Como usar (qualquer IA)
 
-## Instalação (3 passos, no Claude gratuito)
+### Em qualquer IA: ChatGPT, Gemini, Copilot, Claude e outras
+1. Abra o arquivo [`UNIVERSAL.md`](UNIVERSAL.md) e copie **todo o texto**.
+2. Abra uma conversa nova na IA que você usa e **cole como primeira mensagem**.
+3. Ela começa a entrevista. Responda por áudio ou texto.
 
-1. **Baixe o arquivo** [`fazedora-de-prompt.zip`](fazedora-de-prompt.zip) (botão
-   "Download" na página do arquivo).
-2. No Claude, vá em **Configurações → Capacidades** e ligue **Execução de código e
-   criação de arquivos**.
-3. Ainda em Configurações, abra **Skills**, clique em **Enviar skill** e escolha o
-   `.zip`. Pronto.
+Se a sua IA tiver "instruções personalizadas", "projetos", "GPTs" ou "Gems", cole o mesmo texto lá para não precisar colar toda vez. O nome do menu muda de uma IA para outra.
 
-Para usar, abra uma conversa nova e escreva: **"Quero fazer um prompt"**.
-
-> Os nomes dos menus podem mudar de lugar com o tempo. Se não achar, procure por
-> "Skills" nas configurações do Claude ou na Central de Ajuda da Anthropic.
-
-## Exemplos do que dá para pedir
-
-- Orientações de pós-consulta no seu jeito de falar com o paciente
-- Respostas padrão de WhatsApp para a secretária
-- Resumo de artigo com os pontos que importam para você
-- Roteiro de aula, post ou legenda sem soar como robô
-- Estrutura de relatório ou parecer
-- Roteiro de viagem, busca de passagem e hospedagem, comparação de compras
-- Organização de finanças pessoais, plano de estudo, rotina de casa
-
-## Cuidados que a skill já toma por você
-
-- **Não pede nem aceita dado de paciente.** Se você colar nome, carteirinha, guia ou CID de um paciente por engano, ela avisa e
-  segue sem ele.
-- **O prompt entregue proíbe inventar referência bibliográfica.** IA inventa citação
-  com cara de verdade; o prompt já vem com a trava.
-- **Não decide conduta.** O prompt gera rascunho para você revisar e assinar.
-- **Não inventa preço, horário nem regra.** Em assuntos como viagem, o prompt marca o que
-  você precisa conferir no site oficial.
-
-Mesmo assim: **você é responsável pelo que a IA escrever em seu nome.** Leia antes de enviar.
-Não coloque dados identificáveis de pacientes em nenhuma ferramenta de IA sem
-entender a política de privacidade dela e a LGPD.
+### No Claude, como skill instalada
+Baixe [`fazedora-de-prompt.zip`](fazedora-de-prompt.zip) e envie em **Configurações → Skills**. Pode ser preciso ligar a execução de código nas capacidades. Depois, abra uma conversa nova e escreva: **"Quero fazer um prompt"**.
 
 ## O que tem aqui
 
 ```
+UNIVERSAL.md                      ← tudo em um arquivo, para colar em qualquer IA
+fazedora-de-prompt.zip            ← a mesma skill, para instalar no Claude
 fazedora-de-prompt/
-├── SKILL.md                         ← o método (a entrevista, passo a passo)
+├── SKILL.md                      ← o método completo
 └── references/
-    ├── arquitetura-do-prompt.md     ← as oito partes do prompt entregue
-    ├── banco-de-perguntas.md        ← cardápio de perguntas (consultório e vida fora dele)
-    ├── angulos.md                   ← perguntas por ângulos que você não pensou + confirmação
-    ├── vicios-de-ia.md              ← o que a IA faz que denuncia o texto
-    ├── checagem-de-qualidade.md     ← a régua interna antes de entregar
-    ├── exemplo-completo.md          ← prompt entregue no consultório, caso fictício
-    └── exemplo-viagem.md            ← prompt entregue fora do consultório, caso fictício
+    ├── banco-de-perguntas.md     ← cardápio de perguntas por assunto
+    └── exemplos.md               ← 3 prompts entregues como régua de nível
 ```
 
-Tudo em texto simples. Pode abrir e ler. Se quiser mudar algo, é só editar o `SKILL.md`.
+Tudo em texto simples. Se quiser mudar algo, edite o `SKILL.md` e o `UNIVERSAL.md`.
+
+## Cuidados
+
+A IA pode errar. Leia o que ela gerar antes de usar e confira fonte, número e conduta. O prompt entregue já manda a IA avisar quando perceber dado sensível no que você colar.
 
 ## Sobre a Monet Health
 
-A Monet Health é uma empresa para médicos. Siga
-[@monet.health](https://www.instagram.com/monet.health) no Instagram para mais materiais
-como este.
+Siga [@monet.health](https://www.instagram.com/monet.health) no Instagram para mais materiais como este.
 
 ## Licença
 
