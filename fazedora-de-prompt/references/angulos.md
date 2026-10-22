@@ -4,15 +4,15 @@ O relato e as perguntas básicas cobrem o que a pessoa já sabe que quer. Os ân
 o que ela **não pensou**, e é aqui que o prompt deixa de ser bom e passa a funcionar de
 primeira. Cada ângulo vira **uma** pergunta, com a sua sugestão de resposta, como as
 outras. Nunca despeje vários de uma vez. Para encurtar, **junte o ângulo com a pergunta
-que ia fazer de qualquer jeito**, em vez de acrescentar.
+que ia fazer de qualquer jeito** (ainda uma pergunta só), em vez de acrescentar.
 
-## Os 7 ângulos: 3 centrais sempre, 4 só quando o caso pedir
+## Como os ângulos entram
 
-**Centrais, em toda entrevista (modo rápido incluso):** 1 pré-mortem, 2 decisão que sobra
-para a IA, 3 restrição escondida.
-**Sob demanda:** 4 resultado "correto mas ruim" (quando o estilo é crítico), 5 caso estranho
-(saúde, dinheiro, prazo que não volta), 6 "bom o bastante" (uso recorrente), 7 recursos
-escondidos (viagem, compras, finanças).
+As **5 perguntas iniciais** do `SKILL.md` já carregam os três ângulos centrais: **pré-mortem**
+(pergunta 2), **decisão que sobra para a IA** (3) e **restrição escondida / recurso
+escondido** (4). Não repita. Os ângulos abaixo, **4 a 6**, são extras: entram só quando
+o caso pedir (resultado "correto mas ruim" quando o estilo é crítico; caso estranho em
+saúde, dinheiro ou prazo que não volta; "bom o bastante" em uso recorrente).
 
 | # | Ângulo | Pergunta-modelo | Por que importa |
 |---|---|---|---|
@@ -44,7 +44,7 @@ saber para quem. Siga esta ordem de dependência:
 3. **Fatos e fontes** (o que a IA recebe, de onde vêm os dados).
 4. **Fluxo** (passos, ramos, o que fazer quando faltar informação).
 5. **Estilo e formato** (só agora, já sabendo objetivo e público).
-6. **Ângulos** 1 a 7, em qualquer ponto depois do 2.
+6. **Ângulos extras**, em qualquer ponto depois das 5 perguntas iniciais.
 
 Duas regras:
 - **Resposta que abre ramo nova:** se uma resposta revelar uma decisão que ele não tinha
@@ -60,7 +60,7 @@ Em vez do nome do ângulo, use a vida dele. Não diga "vamos fazer um pré-morte
 ## Portão de confirmação (antes de entregar)
 
 Os ângulos terminam em **entendimento compartilhado**, não em prompt. Antes de gerar,
-escreva um resumo em 5 a 8 linhas, em linguagem dele:
+escreva um resumo em 3 a 6 linhas, em linguagem dele:
 
 > Entendi assim: [objetivo]. Para [público]. Do seu jeito: [3 traços do estilo]. A IA
 > nunca: [2 proibições]. Se acontecer [caso estranho], [o que fazer]. Está certo?

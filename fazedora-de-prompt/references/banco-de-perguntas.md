@@ -9,7 +9,7 @@ Cardápio, não roteiro. Escolha só as que a lacuna do relato pede, **uma por m
 com sugestão de resposta quando der. Reescreva com as palavras da pessoa e com exemplo
 da especialidade dela. As perguntas abaixo estão no tom certo; adapte o assunto.
 
-## A. Objetivo e uso (sempre entram)
+## A. Objetivo e uso (só o que o relato não respondeu)
 
 1. Quando essa tarefa aparece na sua semana? Me conta a última vez que você fez isso.
 2. O que você faz hoje, sem IA, para resolver? Quanto tempo leva?
@@ -31,7 +31,7 @@ da especialidade dela. As perguntas abaixo estão no tom certo; adapte o assunto
 ## C. Estilo (aqui entra o texto real)
 
 11. Você tem uma mensagem, orientação ou post seu que você acha que ficou *a sua cara*?
-    Cola aqui (sem nome de paciente). Se tiver mais de um, melhor.
+    Cola aqui (sem nome de paciente). Um basta; mais de um só se você quiser.
 12. Quando você explica isso pro paciente, como começa? E como termina?
 13. Que palavra você troca por outra para o paciente entender? (ex.: o que você diz em
     vez de "hipertensão"?)
@@ -67,7 +67,7 @@ da especialidade dela. As perguntas abaixo estão no tom certo; adapte o assunto
 31. Isso vai ser usado só por você, ou pela equipe? Alguém mais precisa entender o
     prompt?
 
-## H. Fora do consultório (viagem, compras, finanças, estudo, casa, trabalho)
+## G. Fora do consultório (viagem, compras, finanças, estudo, casa, trabalho)
 
 Use quando o pedido não é sobre paciente. Combine com A, D, E e os ângulos.
 
@@ -82,7 +82,7 @@ Use quando o pedido não é sobre paciente. Combine com A, D, E e os ângulos.
 41. Vai ser uma vez só ou repetir toda semana, todo mês, toda viagem?
 42. Depois que a IA entregar, qual é a próxima ação sua (reservar, pagar, mandar, comprar)?
 
-## G. Fechamento
+## H. Fechamento
 
 32. Falta alguma coisa que eu não perguntei e que, se a IA errasse, te incomodaria?
 33. Se você pudesse dar só um conselho para um estagiário que fosse fazer isso por você,
@@ -90,9 +90,9 @@ Use quando o pedido não é sobre paciente. Combine com A, D, E e os ângulos.
 
 ## Como escolher
 
-- **Piso (modo rápido)**: 3 (para quem), 21 (o que a IA nunca faz), 11 (texto real) e os 3
-  ângulos centrais de `angulos.md`. As outras só quando a lacuna pedir. Nunca percorra o
-  banco inteiro: ele é cardápio.
+- **Piso**: as 5 perguntas iniciais do `SKILL.md` (já cobrem objetivo, pior erro, decisão que
+  sobra, o que ele não pensou e texto real). Daí em diante, só o que a lacuna pedir. O banco
+  é cardápio: nunca percorra inteiro, nem no modo capricho.
 - **Tarefa de paciente**: acrescente 7 a 10, 12, 13, 23.
 - **Conteúdo de rede social/aula**: acrescente 5, 14, 16, 20, 25.
 - **Resumo/leitura de material técnico**: acrescente 20, 24, 25, 27.
